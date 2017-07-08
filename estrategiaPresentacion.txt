@@ -1,0 +1,64 @@
+s: 1. Rendimiento, 
+2. Experiencia del Usuario, 
+3. Robustez y/o Seguridad, observando para ello los Términos de Referencia
+establecidos en el ANEXO 2.
+
+
+
+
+contenedorInsLineaAccion.jsp
+reporte.jsp
+
+
+
+
+
+Que es el desempeño
+
+
+
+Presentacion:
+
+
+Mejoras
+
+Modulariozacion de codigo,
+
+Se mantiene el codigo backend, sabemos que tiene se puede mejorar.
+Nos enfocamos en el frontend, el diseño, la experiencia del usuario y la velocidad de carga del sitio web.
+
+En cuanto al diseño
+El codigo HTML no se mezcla con el codigo de javascript
+Separacion del backend  y el frontend
+
+
+
+
+
+INDICADORES DE DESEMPEÑO
+Tiempo de carga
+Nuevas funcionalidades
+Relevancia de nuevas funcionalidades
+Controles y validaciones de formulario
+Modelo de datos
+
+ERRORES DEL SISTEMA
+Errores conocidos reparados
+Errores desconocidos encontrados
+Errores desconocidos reparados
+
+SOSTENIBILIDAD
+Simplicacion de la arquitectura
+Escalabilidad
+Documentacion segun guias de SENATICS
+
+SEGURIDAD
+Vulneravilidades encontradas
+Vulneravilidades demostradas
+Vulneravilidades corregidas
+
+
+PRESENTACION FINAL
+
+
+
