@@ -2,10 +2,17 @@
   // concat
 
   &__content
-    margin-top: 50px
+    margin-top: 60px
 
   &__sidebar-group
     margin-top: 20px
+    position: fixed
+
+    @media screen and (max-width: 768px)
+      position: initial
 
     span.glyphicon
       margin-right: 0.5rem
+
+.search-input
+  font-family: 'Helvetica Neue'
