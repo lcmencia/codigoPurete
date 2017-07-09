@@ -1,0 +1,16 @@
+.login {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 4rem;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+}
+
+.login__input {
+  width: 80%;
+}
