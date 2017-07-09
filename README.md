@@ -1,5 +1,5 @@
 # CodigoPurete
 ### Integrantes:
-- Rodrigo Valdez.
+- Rodrigo Valdez (Líder).
 - Luis Carlos Mencia.
 - José Olórtegui.
