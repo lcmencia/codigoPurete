@@ -6,23 +6,26 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
-
-import { AppRoutingModule }     from './app-routing.module';
 import { LoginComponent } from './login/login.component';
+
+export const routes: Routes = [
+   { path: '', redirectTo: '/login', pathMatch: 'full' },
+  // { path: 'dashboard',  component: LoginComponent },
+  { path: 'login',  component: LoginComponent },
+  { path: 'dashboard',  component: DashboardComponent },
+];
+
+
+
+
+
 
 
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    DashboardComponent,
-    LoginComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+  imports: [ RouterModule.forRoot(routes) ],
+  exports: [ RouterModule ]
 })
-export class AppModule { }
+export class AppRoutingModule {}
+
+

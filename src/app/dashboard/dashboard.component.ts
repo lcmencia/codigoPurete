@@ -3,6 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-dashboard',
   templateUrl: './dashboard.component.html',
+ //template: 'asfd',
   styleUrls: ['./dashboard.component.sass']
 })
 export class DashboardComponent implements OnInit {
