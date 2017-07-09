@@ -4,13 +4,18 @@ import { Http, Response, Headers, RequestOptions } from '@angular/http';
 
 import {LineaAccion} from './linea-accion';
 
+
+
+
+var valor = {"id":799,"nombre":" SECTOR DESARROLLO SOCIAL","descripcion":"22-8-2-1-5-0","orden":2010500,"peso":1,"acumular":true,"tipoAccionId":99,"estrategiaId":99,"unidadMedidaId":48,"borrado":false,"acciones":[]}
+
 let LINEAS = [
-  new LineaAccion(11, 'Mr. Nice'),
-  new LineaAccion(12, 'Narco'),
-  new LineaAccion(13, 'Bombasto'),
-  new LineaAccion(14, 'Celeritas'),
-  new LineaAccion(15, 'Magneta'),
-  new LineaAccion(16, 'RubberMan')
+  new LineaAccion(valor),
+  new LineaAccion(valor),
+  new LineaAccion(valor),
+  new LineaAccion(valor),
+  new LineaAccion(valor),
+  new LineaAccion(valor)
 ];
 
 

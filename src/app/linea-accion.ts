@@ -1,8 +1,16 @@
 export class LineaAccion {
 
-	constructor( id: number,  nombre: string ) {
-		this.id = id;
-		this.nombre = nombre;
+	constructor( valor ) {
+		this.id = valor.id;
+		this.nombre = valor.nombre;
+		this.descripcion = valor.descripcion;
+		this.orden = valor.orden;
+		this.peso = valor.peso;
+		this.acumular = valor.acumular;
+		this.tipoAccionId=  valor.tipoAccionId;
+		this.estrategiaId  = valor.estategiaID;
+		this.unidadMedidaId = valor.unidadMedidaId;
+		this.borrado = valor.borrado;
 	 }
 	id: number;
   	nombre: string;
