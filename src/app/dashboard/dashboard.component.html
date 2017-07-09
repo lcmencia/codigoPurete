@@ -188,7 +188,16 @@
             </tr>
           </tbody>
         </table>
+
+           <ul class="lineasAccion">
+      <li *ngFor="let hero of lineasAccion"
+        [class.selected]="hero === selectedHero"
+        (click)="onSelect(hero)">
+        <span class="badge">{{hero.id}}</span> {{hero.nombre}} /{{hero.descripcion}}
+      </li>
+    </ul>
       </div>
     </div>
   </div>
 </div>
+
