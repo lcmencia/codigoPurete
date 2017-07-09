@@ -9,6 +9,11 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 
 import { AppRoutingModule }     from './app-routing.module';
 import { LoginComponent } from './login/login.component';
+import { HttpModule }    from '@angular/http';
+
+
+
+
 
 
 
