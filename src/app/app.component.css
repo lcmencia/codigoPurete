@@ -1,22 +1,7 @@
-.login {
-  display: -webkit-flex;
-  display: -ms-flex;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  padding: 4rem;
-  justify-content: center;
-  -ms-align-items: center;
-  align-items: center;
+.dashboard__content {
+  margin-top: 60px;
 }
 
-.login__input {
-  width: 80%;
-}
-
-.login__title {
-  width: 100%;
-  margin: auto;
-  text-align: center;
+.dashboard__sidebar-group {
+  margin-top: 20px;
 }
