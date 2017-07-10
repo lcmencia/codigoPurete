@@ -7,7 +7,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-      <a class="navbar-brand" href="" routerLink="/login">SPR</a>
+      <a class="navbar-brand" href="" routerLink="/dashboard">SPR</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
@@ -54,71 +54,75 @@
         </ul>
       </ul>
     </div>
-    <div class="col-sm-9 col-md-10 main animated fadeIn">
-      <h1 class="sub-header">Linea de Acción</h1>
-      <div class="table-responsive">
-        <table class="table table-striped">
-          <thead>
-            <tr>
-              <th>Periodo</th>
-              <th>Institución</th>
-              <th>Línea de Acción</th>
-              <th>Meta</th>
-              <th>Unidad de Medidad</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>2017</td>
-              <td>STP</td>
-              <td><a href="" routerLink="/linea-accion">Planes de ordenamiento territorial</a></td>
-              <td>15</td>
-              <td>Planes</td>
-            </tr>
-            <tr>
-              <td>2017</td>
-              <td>STP</td>
-              <td><a href="" routerLink="/linea-accion">Monitoreo de prioridades de Gobierno en el área social</a></td>
-              <td>18</td>
-              <td>Informes</td>
-            </tr>
-            <tr>
-              <td>2017</td>
-              <td>STP</td>
-              <td><a href="" routerLink="/linea-accion">Consejos de desarrollo</a></td>
-              <td>25</td>
-              <td>Consejos</td>
-            </tr>
-            <tr>
-              <td>2017</td>
-              <td>STP</td>
-              <td><a href="" routerLink="/linea-accion">Planes de desarrollo municipales y departamentales</a></td>
-              <td>15</td>
-              <td>Planes</td>
-            </tr>
-            <tr>
-              <td>2017</td>
-              <td>STP</td>
-              <td><a href="" routerLink="/linea-accion">Formación y capacitación en desarrollo con enfoque territorial</a></td>
-              <td>55</td>
-              <td>Personas</td>
-            </tr>
-            <tr>
-              <td>2017</td>
-              <td>STP</td>
-              <td><a href="" routerLink="/linea-accion">Seguridad alimentaria en comunidades indígenas y campesinas</a></td>
-              <td>68</td>
-              <td>Comunidades</td>
-            </tr>
-            <tr>
-              <td>2017</td>
-              <td>STP</td>
-              <td><a href="" routerLink="/linea-accion">Relevamiento de evidencias en campo</a></td>
-              <td>4</td>
-              <td>Informes</td>
-            </tr>
-          </tbody>
-        </table>
+    <div class="col-sm-9 col-md-10 main editor-content animated fadeIn">
+      <ul class="nav nav-justified">
+        <li role="presentation" class="active"><a href="#">Edición</a></li>
+        <li role="presentation"><a href="#">Administrar Acciones</a></li>
+        <li role="presentation"><a href="#">Avance Cualitativo</a></li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="form-group label-floating login__input">
+          <label for="nombre" class="control-label">Nombre</label>
+          <input type="text" class="form-control" id="nombre">
+        </div>
+
+        <div class="form-group">
+          <label for="s1">Institución</label>
+          <select id="s1" class="form-control">
+            <option value="Secretaría Técnica de Planificación del Desarrollo Económico y Social">Secretaría Técnica de Planificación del Desarrollo Económico y Social</option>
+            <option value="Administración Nacional de Electricidad">Administración Nacional de Electricidad</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="s1">Periodo</label>
+          <select id="s1" class="form-control">
+            <option value="2017">2017</option>
+            <option value="2016">2016</option>
+            <option value="2015">2015</option>
+            <option value="2014">2014</option>
+          </select>
+        </div>
+
+        <div class="form-group label-floating login__input">
+          <label for="meta" class="control-label">Meta</label>
+          <input type="text" class="form-control" id="meta">
+        </div>
+
+        <div class="form-group label-floating login__input">
+          <label for="version" class="control-label">Versión</label>
+          <input type="text" class="form-control" id="version">
+        </div>
+        <h3></h3>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" checked=""> Sembrando Oportunidades
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" checked=""> Gobierno Abierto
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" checked=""> Estrategia Nacional de Inclusión Financiera
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" checked=""> Planificación Operativa Institucional
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" checked=""> Planes de Desarrollo Departamentales y Municipales
+          </label>
+        </div>
+      </div>
+      <div class="text-center">
+        <a href="" class="btn btn-raised btn-primary btn-lg">Actualizar</a>
       </div>
     </div>
   </div>
